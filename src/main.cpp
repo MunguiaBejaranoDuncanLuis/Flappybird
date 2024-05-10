@@ -11,8 +11,8 @@ using namespace ftxui;
 
 int main(int argc, char const *argv[])
 {
-    Dibujo moto("./assets/images/bird.txt");
-    Dibujo bloque("./assets/images/tuberia.txt");
+    Dibujo bird("./assets/images/bird.txt");
+    Dibujo tuberia("./assets/images/tuberia.txt");
 
     int fotograma = 0;
     while (true)
