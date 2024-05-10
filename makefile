@@ -5,10 +5,10 @@ dependencias = -lftxui-screen -lftxui-dom -lftxui-component
 flags = -std=c++2a $(dependencias) $(include)
 
 
-run : $(output)/tron
+run : $(output)/bird
 	./$< 
 
-$(output)/tron : $(source)/main.cpp
+$(output)/bird : $(source)/main.cpp
 	g++ -o $@ $< $(flags)
 
 runPantalla : $(output)/pantalla
