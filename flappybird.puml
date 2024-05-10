@@ -1,0 +1,11 @@
+@startuml
+
+class Juego
+class Jugador
+class Moto
+class Bird
+class Tuberia
+class Muro
+
+
+@enduml
