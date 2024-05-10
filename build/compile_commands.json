@@ -1,0 +1,352 @@
+[
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/animation.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/animation.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/button.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/button.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/button.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/catch_event.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/catch_event.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/checkbox.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/checkbox.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/collapsible.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/collapsible.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/component.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/component.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/component.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/component_options.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/component_options.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/container.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/container.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/container.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/dropdown.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/dropdown.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/event.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/event.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/event.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/hoverable.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/hoverable.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/input.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/input.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/input.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/loop.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/loop.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/maybe.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/maybe.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/menu.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/menu.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/modal.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/modal.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/radiobox.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/radiobox.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/renderer.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/renderer.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/resizable_split.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/resizable_split.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/screen_interactive.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/screen_interactive.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/slider.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/slider.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/terminal_input_parser.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/terminal_input_parser.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/util.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/util.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/util.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/window.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/component/window.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/component/window.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/automerge.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/automerge.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/blink.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/blink.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/bold.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/bold.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/hyperlink.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/hyperlink.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/border.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/border.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/box_helper.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/box_helper.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/canvas.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/canvas.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/clear_under.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/clear_under.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/color.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/color.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/composite_decorator.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/composite_decorator.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/dbox.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/dbox.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/dim.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/dim.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/flex.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/flex.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/flexbox.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/flexbox.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/flexbox_config.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/flexbox_config.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/flexbox_config.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/flexbox_helper.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/flexbox_helper.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/focus.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/focus.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/frame.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/frame.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/gauge.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/gauge.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/graph.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/graph.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/gridbox.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/gridbox.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/hbox.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/hbox.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/inverted.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/inverted.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/linear_gradient.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/linear_gradient.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/node.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/node.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/node_decorator.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/node_decorator.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/paragraph.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/paragraph.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/reflect.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/reflect.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/scroll_indicator.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/scroll_indicator.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/separator.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/separator.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/size.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/size.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/spinner.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/spinner.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/strikethrough.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/strikethrough.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/table.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/table.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/text.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/text.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/underlined.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/underlined.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/underlined_double.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/underlined_double.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/util.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/util.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -isystem /workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/dom/vbox.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/dom/vbox.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -I/workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/screen/box.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/screen/box.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -I/workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/screen/color.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/screen/color.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -I/workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/screen/color_info.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/screen/color_info.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -I/workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/screen/image.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/screen/image.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -I/workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/screen/screen.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/screen/screen.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -I/workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/screen/string.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/screen/string.cpp"
+},
+{
+  "directory": "/workspaces/Flappybird/build",
+  "command": "/usr/bin/g++   -I/workspaces/Flappybird/FTXUI/src -I/workspaces/Flappybird/FTXUI/include  -g   -std=gnu++17 -o CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o -c /workspaces/Flappybird/FTXUI/src/ftxui/screen/terminal.cpp",
+  "file": "/workspaces/Flappybird/FTXUI/src/ftxui/screen/terminal.cpp"
+}
+]

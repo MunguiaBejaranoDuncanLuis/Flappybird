@@ -1,0 +1,24 @@
+@startuml
+
+class Juego
+class Pantalla
+class Jugador
+class Bird
+class Tuberia
+class Muro
+class Colisionable
+
+Juego --|> Pantalla
+Jugador o-- Pantalla
+
+Bird o-- Arena
+
+Jugador o-- Bird
+
+Arena *-- Muro
+Arena *-- Tuberia
+
+Tuberia --|> Colisionable
+Muro --|> Colisionable
+
+@enduml
