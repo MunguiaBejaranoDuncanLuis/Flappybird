@@ -7,11 +7,14 @@ class Bird
 class Tuberia
 class Muro
 class Colisionable
+class Vida
 
 Juego --|> Pantalla
 Jugador o-- Pantalla
 
 Bird o-- Arena
+Bird *--"3" Vida
+Colisionable --*"1" Vida
 
 Jugador o-- Bird
 
