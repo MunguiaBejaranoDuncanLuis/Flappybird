@@ -1,30 +1,19 @@
-#include <iostream>
-#include <ftxui/screen/screen.hpp>
-#include <ftxui/dom/elements.hpp>
-#include <thread>
-#include <fstream>
-#include <string>
-#include <Dibujo.hpp>
-
+#include "FlappyBird.h"
 using namespace std;
-using namespace ftxui;
 
-int main(int argc, char const *argv[])
-{
-    Dibujo bird("./assets/images/bird.txt");
-    Dibujo tuberia("./assets/images/tuberia.txt");
+int main() {
+    while (true) {
+        Flappy_Bird fb;
+        fb.play();
+        cout << "Do you want to play again? (Y/N)";
 
-    int fotograma = 0;
-    while (true)
-    {
-        this_thread::sleep_for(0.1s);
-        fotograma++;
-        Element personaje = spinner(21, fotograma) | bold | color(Color::Red) | bgcolor(Color::White);
-        Element dibujo = hbox({personaje, bird.GetElement(), tuberia.GetElement()});
-        Screen pantalla = Screen::Create(Dimension::Full());
-        Render(pantalla, dibujo);
-        pantalla.Print();
-        cout << pantalla.ResetPosition();
+        char ch;
+        cin >> ch;
+        if (ch == 'N' || ch == 'n') {
+            break;
+        }
+        system("clear");
     }
-    return EXIT_SUCCESS;
+
+    return 0;
 }
