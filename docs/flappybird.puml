@@ -1,27 +1,49 @@
 @startuml
 
-class Juego
-class Pantalla
-class Jugador
-class Bird
-class Tuberia
-class Muro
-class Colisionable
-class Vida
+class Game{
+    -Repeat()
+}
+class Screen{
+    +See()
+}
+class Player{
+    +Play()
+}
+class Bird{
+    +Fly()
+    +Avoid()
+    +Fall()
+}
+class Pipe{
+    +Danger()
+}
+class Wall{
+    
+}
+class collision{
+    +Danger()
+}
+class Live{
+    +Oportunity()
+}
+class Road{
+    +Danger()
+}
 
-Juego --|> Pantalla
-Jugador o-- Pantalla
+Game o-- Screen
+Player *-- Game
+Player o-- Screen
 
-Bird o-- Arena
-Bird *--"3" Vida
-Colisionable --*"1" Vida
+Bird o-- Screen
+Bird o-- Road
+Bird *--"3" Live
+collision --*"1" Live
 
-Jugador o-- Bird
+Player o-- Bird
 
-Arena *-- Muro
-Arena *-- Tuberia
+Road *-- Wall
+Road *-- Pipe
 
-Tuberia --|> Colisionable
-Muro --|> Colisionable
+Pipe --|> collision
 
 @enduml
