@@ -6,9 +6,9 @@ class Hurdle {
 public:
     Hurdle(float x, float gapY);
     void update();
-    void render(sf::RenderWindow& window) const;
-    bool isOffScreen() const;
-    sf::FloatRect getBounds() const;
+    void render(sf::RenderWindow& window);
+    bool isOffScreen();
+    sf::FloatRect getBounds();
 
 private:
     sf::Sprite mSprite;

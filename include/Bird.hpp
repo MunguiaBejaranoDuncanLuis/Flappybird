@@ -8,7 +8,7 @@ public:
     void update();
     void render(sf::RenderWindow& window);
     void jump();
-    sf::FloatRect getBounds() const;
+    sf::FloatRect getBounds();
 
 private:
     sf::Sprite mSprite;

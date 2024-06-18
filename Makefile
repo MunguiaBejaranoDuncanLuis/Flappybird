@@ -1,6 +1,6 @@
 CXX = g++
-CXXFLAGS = -std=c++11 -Wall -Iinclude -I/usr/local/include
-LDFLAGS = -L/usr/local/lib -lsfml-graphics -lsfml-window -lsfml-system
+CXXFLAGS = -std=c++11 -Wall -Iinclude
+LDFLAGS = -lsfml-graphics -lsfml-window -lsfml-system -fpermissive
 SRC_DIR = src
 BIN_DIR = bin
 

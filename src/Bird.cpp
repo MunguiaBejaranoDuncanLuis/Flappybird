@@ -3,7 +3,7 @@
 Bird::Bird()
 : mVelocity(0.0f)
 {
-    if (!mTexture.loadFromFile("images/flappy_bird.png")) {
+    if (!mTexture.loadFromFile("./images/flappy_bird.png")) {
         throw std::runtime_error("Error loading flappy_bird.png");
     }
     mSprite.setTexture(mTexture);
@@ -21,6 +21,7 @@ void Bird::update() {
 }
 
 void Bird::render(sf::RenderWindow& window) {
+    mSprite.setTexture(mTexture);
     window.draw(mSprite);
 }
 
@@ -28,6 +29,6 @@ void Bird::jump() {
     mVelocity = -10.0f; // Impulso del salto
 }
 
-sf::FloatRect Bird::getBounds() const {
+sf::FloatRect Bird::getBounds() {
     return mSprite.getGlobalBounds();
 }

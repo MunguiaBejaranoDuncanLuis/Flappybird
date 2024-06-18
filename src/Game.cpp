@@ -7,7 +7,7 @@ Game::Game()
 : mWindow(sf::VideoMode(800, 600), "Flappy Bird with SFML")
 , mScore(0)
 {
-    if (!mBackgroundTexture.loadFromFile("images/road.png")) {
+    if (!mBackgroundTexture.loadFromFile("./images/road.png")) {
         std::cerr << "Error loading road.png" << std::endl;
     }
     mBackgroundSprite.setTexture(mBackgroundTexture);
@@ -59,7 +59,7 @@ void Game::update(sf::Time deltaTime) {
         mScore++;
     }
 
-    for (const auto &hurdle : mHurdles) {
+    for (auto &hurdle : mHurdles) {
         if (mBird.getBounds().intersects(hurdle.getBounds())) {
             std::cout << "Collision detected! Score: " << mScore << std::endl;
             std::cout << "Do you want to play again? (Y/N)" << std::endl;
@@ -81,7 +81,7 @@ void Game::render() {
     mWindow.clear();
     mWindow.draw(mBackgroundSprite);
     mBird.render(mWindow);
-    for (const auto &hurdle : mHurdles) {
+    for (auto &hurdle : mHurdles) {
         hurdle.render(mWindow);
     }
     mWindow.display();
