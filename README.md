@@ -1,4 +1,6 @@
 # Flappy Bird
+### Duncan Luis Munguia Bejarano 222310239
+### Emmanuel Cabrera Garcia 22310177
 
 ## Historia.
 
@@ -8,6 +10,7 @@
 
 ## Dinamica
 ### El jugador controla un pájaro intentando volar entre filas de tuberías verdes sin tocarse con estas.
+
 
 
 
