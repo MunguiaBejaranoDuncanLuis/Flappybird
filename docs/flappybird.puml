@@ -18,7 +18,7 @@ class Pipe{
     +Danger()
 }
 class Wall{
-    
+    -Unlimited()
 }
 class collision{
     +Danger()
