@@ -1,33 +1,23 @@
-# Variables
 CXX = g++
-CXXFLAGS = -Iinclude -Wall -std=c++11
-LDFLAGS = -lncurses
-SRC = src
-BIN = bin
-INCLUDE = include
+CXXFLAGS = -std=c++11 -Wall -Iinclude -I/usr/local/include
+LDFLAGS = -L/usr/local/lib -lsfml-graphics -lsfml-window -lsfml-system
+SRC_DIR = src
+BIN_DIR = bin
 
-# Objetos
-OBJECTS = $(SRC)/FlappyBird.o $(SRC)/main.o
+SOURCES = $(wildcard $(SRC_DIR)/*.cpp)
+OBJECTS = $(SOURCES:$(SRC_DIR)/%.cpp=$(BIN_DIR)/%.o)
+EXECUTABLE = $(BIN_DIR)/game
 
-# Ejecutable
-EXECUTABLE = $(BIN)/Flappy_Bird
-
-# Reglas
 all: $(EXECUTABLE)
 
 $(EXECUTABLE): $(OBJECTS)
-	$(CXX) -o $@ $^ $(LDFLAGS)
+	$(CXX) $(OBJECTS) -o $@ $(LDFLAGS)
 
-$(SRC)/FlappyBird.o: $(SRC)/FlappyBird.cpp $(INCLUDE)/FlappyBird.h
-	$(CXX) $(CXXFLAGS) -c -o $@ $<
+$(BIN_DIR)/%.o: $(SRC_DIR)/%.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-$(SRC)/main.o: $(SRC)/main.cpp $(INCLUDE)/FlappyBird.h
-	$(CXX) $(CXXFLAGS) -c -o $@ $<
-
-clean:
-	rm -f $(SRC)/*.o $(BIN)/Flappy_Bird
-
-run: all
+run: $(EXECUTABLE)
 	./$(EXECUTABLE)
 
-.PHONY: all clean run
+clean:
+	rm -f $(BIN_DIR)/*.o $(EXECUTABLE)

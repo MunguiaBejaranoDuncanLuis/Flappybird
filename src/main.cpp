@@ -1,19 +1,12 @@
-#include "FlappyBird.h"
-using namespace std;
+#include "Game.hpp"
+#include <iostream>
 
 int main() {
-    while (true) {
-        Flappy_Bird fb;
-        fb.play();
-        cout << "Do you want to play again? (Y/N)";
-
-        char ch;
-        cin >> ch;
-        if (ch == 'N' || ch == 'n') {
-            break;
-        }
-        system("clear");
+    try {
+        Game game;
+        game.run();
+    } catch (const std::exception& e) {
+        std::cerr << "Exception: " << e.what() << std::endl;
     }
-
     return 0;
 }
