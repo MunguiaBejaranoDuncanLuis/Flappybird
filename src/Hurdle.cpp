@@ -26,3 +26,30 @@ bool Hurdle::isOffScreen() {
 sf::FloatRect Hurdle::getBounds() {
     return mSprite.getGlobalBounds();
 }
+///   /////   ////// //////     /////// ///////   //// 
+Hurdle2::Hurdle2(float x, float gapY)
+: mGapY(gapY)
+{
+    if (!mTexture.loadFromFile("./images/pipe2.png")) {
+        throw std::runtime_error("Error loading pipe2.png");
+    }
+    mSprite.setTexture(mTexture);
+    mSprite.setPosition(x, gapY);
+}
+
+void Hurdle::update() {
+    mSprite.move(-4, 0);
+}
+
+void Hurdle::render(sf::RenderWindow& window) {
+    mSprite.setTexture(mTexture);
+    window.draw(mSprite);
+}
+
+bool Hurdle::isOffScreen() {
+    return mSprite.getPosition().x + mSprite.getGlobalBounds().width < 0;
+}
+
+sf::FloatRect Hurdle::getBounds() {
+    return mSprite.getGlobalBounds();
+}

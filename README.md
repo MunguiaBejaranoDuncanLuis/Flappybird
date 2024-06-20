@@ -9,8 +9,9 @@
 
 ## How to play? :)
 ### The mechanics of this game is quite easy, the game is to dodge the pipes and get the highest score possible. By pressing the "Space" key you raise Charizard.
+### To make this game run, you have to put in the "Terminal" this code: "make run"
 
-![How to play?](images/Game1.png)
+![How to play?](images/Game1.png)  
 
 ## Diagram:
 ### This diagram shows the flow we follow to perform the game, separating each class and seeing what is acting in the game.

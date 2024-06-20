@@ -16,6 +16,7 @@ Game::Game()
     // Generar un obstáculo inicial
     srand(time(NULL));
     mHurdles.push_back(Hurdle(800, rand() % 400 + 100));
+    mHurdles.push_back(Hurdle(800, rand() % 400 + 100));
 
     std::cout << "Press Spacebar to Start" << std::endl;
 }
